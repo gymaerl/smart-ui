@@ -1,0 +1,20 @@
+---
+data: 
+  totalCount: 11
+  currPage: 1
+  list:
+  - goodsId: 1
+    goodsName: shose
+    goodsIntro: can use in the rain
+    goodsCoverImg: http://localhost:3000/logo.png
+    stockNum: 110
+    sellingPrice: 198
+    goodsSellStatus: 0
+  - goodsId: 2
+    goodsName: bike
+    goodsIntro: can use in the montain
+    goodsCoverImg: http://localhost:3000/smart-ui.png
+    stockNum: 10
+    sellingPrice: 11980
+    goodsSellStatus: 0
+resultCode: 200

@@ -1,0 +1,18 @@
+---
+data: 
+  totalCount: 11
+  currPage: 1
+  list:
+  - configId: 1
+    configName: name1
+    redirectUrl: re-url1
+    configRank: 1
+    goodsId: 1
+    createTime: 2021-10-13 11:23:45
+  - configId: 2
+    configName: name2
+    redirectUrl: re-url2
+    configRank: 2
+    goodsId: 2
+    createTime: 2021-10-12 11:23:45
+resultCode: 200

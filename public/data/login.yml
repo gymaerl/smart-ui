@@ -1,0 +1,259 @@
+---
+data:
+  user:
+    loginUserName: test
+    nickName: test1
+    token: your-token
+  routers: 
+    #  - path: '/'
+    #    redirect: '/introduce'
+    #  - path: '/introduce'
+    #    name: 'introduce'
+    #    component: '../views/Introduce.vue'
+    #  - path: '/dashboard'
+    #    name: 'dashboard'
+    #    component: '../views/Index.vue'
+    #  - path: '/login'
+    #    name: 'login'
+    #    component: '../views/Login.vue'
+    - path: '/add'
+      name: 'add'
+      component: '../views/examples/AddGood.vue'
+    - path: '/swiper'
+      name: 'swiper'
+      component: '../views/examples/Swiper.vue'
+    - path: '/hot'
+      name: 'hot'
+      component: '../views/examples/IndexConfig.vue'
+    - path: '/new'
+      name: 'new'
+      component: '../views/examples/IndexConfig.vue'
+    - path: '/recommend'
+      name: 'recommend'
+      component: '../views/examples/IndexConfig.vue'
+    - path: '/category'
+      name: 'category'
+      component: '../views/examples/Category.vue'
+      children: 
+        - path: '/category/level2'
+          name: 'level2'
+          component: '../views/examples/Category.vue'
+        - path: '/category/level3'
+          name: 'level3'
+          component: '../views/examples/Category.vue'
+    - path: '/good'
+      name: 'good'
+      component: '../views/examples/Good.vue'
+    - path: '/guest'
+      name: 'guest'
+      component: '../views/examples/Guest.vue'
+    - path: '/order'
+      name: 'order'
+      component: '../views/examples/Order.vue'
+    - path: '/order_detail'
+      name: 'order_detail'
+      component: '../views/examples/OrderDetail.vue'
+    - path: '/template_list'
+      name: 'template_list'
+      component: '../views/templates/List.vue'
+  menus: 
+    - index: 1
+      name: 'Dashboard'
+      child: 
+      - name: 'Introducation'
+        index: '/introduce'
+        class: 'el-icon-data-line'
+      - name: 'Dashboard'
+        index: '/dashboard'
+        class: 'el-icon-odometer'
+    - index: 97
+      name: 'Template'
+      child: 
+      - name: 'List Template'
+        index: '/template_list'
+        class: 'el-icon-collection'
+    - index: 98
+      name: 'Examples'
+      child: 
+      - name: 'Add'
+        index: '/add'
+        class: 'el-icon-plus'
+      - name: '轮播图配置'
+        index: '/swiper'
+        class: 'el-icon-picture'
+      - name: '热销商品配置'
+        index: '/hot'
+        class: 'el-icon-star-on'
+      - name: '新品上线配置'
+        index: '/new'
+        class: 'el-icon-sell'
+      - name: 'Recommendation'
+        index: '/recommend'
+        class: 'el-icon-thumb'
+      - name: '分类管理'
+        index: '/category'
+        class: 'el-icon-menu'
+      - name: '商品管理'
+        index: '/good'
+        class: 'el-icon-goods'
+      - name: 'User mgmt'
+        index: '/guest'
+        class: 'el-icon-user-solid'
+      - name: '订单管理'
+        index: '/order'
+        class: 'el-icon-s-order'
+    - index: 99
+      name: 'System mgmt'
+      child:
+      - name: 'Change password'
+        index: '/account'
+        class: 'el-icon-lock'
+  path_map:
+    login: 'Login'
+    logout: 'Logout'
+    introduce: 'Introduction'
+    dashboard: 'Dashboard'
+    add: '添加商品'
+    swiper: '轮播图配置'
+    hot: '热销商品配置'
+    new: '新品上线配置'
+    recommend: 'Recommendation'
+    category: 'Category'
+    level2: '分类二级管理'
+    level3: '分类三级管理'
+    good: '商品管理'
+    guest: '会员管理'
+    order: '订单管理'
+    order_detail: '订单详情'
+    account: 'Modify account'
+    template_list: 'List Template'
+  layout:
+    template_list:
+      list:
+        backend_url: /tmplate/list
+        cols:
+        - name: text
+          title: Text column
+          width: 100 px
+          type: text
+          style: ""
+        - name: img
+          title: Image column
+          width: 200 px
+          type: img
+          style: ""
+        - name: link
+          title: Link column
+          width: 200 px
+          type: link
+          style: ""
+          href: "https://www.google.com"
+          target: "_blank"
+        hdnCols:
+        - name: pks
+        - name: hdnCol
+      detail:
+        backend_url: /tmplate/detail
+        cols:
+        - name: img
+          label: Image item
+          type: img
+          style: ""
+        - name: text
+          label: Textbox item
+          required: "required"
+          type: text
+          style: ""
+          placeholder: "please input"
+        - name: number
+          label: Number item
+          required: "required"
+          type: number
+          style: ""
+          placeholder: "please input or select"
+          min: 0
+          max: 1
+          precision: 2
+          step: 0.1
+        - name: select
+          label: Select item
+          type: select
+          style: ""
+          placeholder: "please select"
+          opts: 
+          - name: opt1
+            value: 1st opt
+          - name: opt2
+            value: 2nd opt
+          - name: opt3
+            value: 3rd opt
+        - name: multi_select
+          label: Multiple select item
+          type: multi_select
+          required: "required"
+          style: ""
+          placeholder: "please select"
+          opts: 
+          - value: opt1
+            label: 1st opt
+          - value: opt2
+            label: 2nd opt
+          - value: opt3
+            label: 3rd opt
+        - name: textarea
+          label: Textarea item
+          type: textarea
+          style: ""
+          placeholder: "please input"
+        - name: radio
+          label: Radio item
+          type: radio
+          style: ""
+          opts: 
+          - opt1
+          - opt2
+          - opt3
+        - name: checkbox
+          label: Checkbox item
+          type: checkbox
+          style: ""
+          opts: 
+          - opt1
+          - opt2
+          - opt3
+        - name: button
+          label: Button item
+          type: button
+          style: ""
+        - name: pks
+          type: hidden
+        - name: hidden
+          type: hidden
+        rules:
+          text: 
+          - required: 'true'
+            message: 'text不能为空'
+            trigger: ['change']
+          number: 
+          - required: 'true'
+            message: 'number不能为空'
+            trigger: ['change']
+          multi_select: 
+          - required: 'true'
+            message: 'multi_select不能为空'
+            trigger: ['change']
+        init:
+          text: ''
+          img: ''
+          number: 0
+          select: 1st opt
+          multi_select: 
+          - opt1
+          textarea: ''
+          radio: opt2
+          checkbox: 
+          - opt3
+          button: 'click me'
+          pks: ''
+          hidden: ''
+resultCode: 200

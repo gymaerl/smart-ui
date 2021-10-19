@@ -1,0 +1,21 @@
+---
+data: 
+  totalCount: 11
+  currPage: 1
+  list:
+  - nickName: xxx
+    loginName: xxx
+    lockedFlag: 0
+    isDeleted: 0
+    createTime: 2021-10-12 12:34:56
+  - nickName: yyy
+    loginName: YYY
+    lockedFlag: 1
+    isDeleted: 1
+    createTime: 2021-10-13 12:34:56
+  - nickName: zzz
+    loginName: ZZZ
+    lockedFlag: 1
+    isDeleted: 0
+    createTime: 2021-10-12 02:34:56
+resultCode: 200

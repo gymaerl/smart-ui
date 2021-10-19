@@ -1,0 +1,6 @@
+data:
+  user:
+    loginUserName: test
+    nickName: test1
+    token: your-token
+resultCode: 200

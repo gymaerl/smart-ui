@@ -1,0 +1,19 @@
+---
+data: 
+  list:
+  - categoryId: 1
+    categoryName: sports
+    categoryRank: 1
+    categoryLevel: 1
+    createTime: 2021-10-13 11:23:25
+  - categoryId: 2
+    categoryName: life
+    categoryLevel: 1
+    createTime: 2021-10-13 11:23:35
+    categoryRank: 1
+  - categoryId: 3
+    categoryName: outdoor
+    categoryRank: 3
+    categoryLevel: 2
+    createTime: 2021-10-13 11:23:45
+resultCode: 200

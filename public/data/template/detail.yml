@@ -1,0 +1,23 @@
+---
+resultCode: 200
+data:
+  text: text1
+  img: 
+    src: http://localhost:3000/logo.png
+    alt: logo1
+  number: 0.2
+  select: 1st opt
+  multi_select: 
+  - opt1
+  textarea: |
+    abc
+    123
+  radio: opt2
+  checkbox: 
+  - opt3
+  editor: |
+    456
+    xyz
+  button: click me
+  pks: "key1:k21;key2:k22"
+  hidden: 1st hidden value

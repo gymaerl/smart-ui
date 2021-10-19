@@ -1,0 +1,24 @@
+---
+resultCode: 200
+data: 
+  totalCount: 2
+  currPage: 1
+  list:
+    - text: text1
+      img: 
+        src: http://localhost:3000/smart-ui.png
+        alt: logo1
+      link: 
+        href: https://www.google.com
+        name: google
+      pks: "key1:k11;key2:k12"
+      hdnCol: 1st hidden column
+    - text: text2
+      img: 
+        src: http://localhost:3000/logo.png
+        alt: logo2
+      link: 
+        href: https://www.yahoo.co.jp
+        name: yahoo japan
+      pks: "key1:k21;key2:k22"
+      hdnCol: 2nd hidden column
