@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="left">Copyright © 2019-2021 DJ-Art All rights reserved.</div>
     <div class="right">
-      <a target="_blank" href="https://github.com/newbee-ltd/vue3-admin">vue3-admin Version 3.0.0</a>
+      <a target="_blank" href="https://github.com/gymaerl/smart-ui">smart-ui Version 0.0.1</a>
     </div>
   </div>
 </template>
