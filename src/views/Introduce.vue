@@ -13,7 +13,7 @@
     <ul class="course">
       <li>Done - [auto] Login (password + token)</li>
       <li>Done - Logout</li>
-      <li>Modify user info</li>
+      <li>Mainten user info</li>
       <li>Done - Dynamic generate menu</li>
       <li>Done - Dynamic generate router</li>
       <li>No-need - Privilege control (due to backend will return the filtered menu and router data)</li>
@@ -24,8 +24,11 @@
     
     <h1>Todo List</h1>
     <ul class="course">
-      <li>Modify user info</li>
-      <li>Design backend woth DJango</li>
+      <li>Mainten user info</li>
+      <li>Mainten page layout info</li>
+      <li>Mainten privilege info</li>
+      <li>Add chart Template</li>
+      <li>Design backend with DJango</li>
     </ul>
     
     <h1>Technology stack</h1>
@@ -48,14 +51,7 @@
 export default {
   name: 'Introduce',
   setup() {
-    const goJuejin = () => {
-      console.log('goJuejin')
-      window.open('https://juejin.cn/book/6933939264455442444', 'target')
-    }
-
-    return {
-      goJuejin
-    }
+    return {}
   }
 }
 </script>
