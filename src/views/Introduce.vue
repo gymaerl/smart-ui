@@ -6,7 +6,7 @@
       The complete api interface is associated with the companion, so it has a choice based on the technology stack. <br>
       We will enrich themes and interactive templates at the right time to support the ever-enriching interactive needs (for example: the interactive needs of PCs, pads, smart phones and other devices). <br>
       We will gradually improve various functions and make it an extensible user interface framework. Back-end developers can develop by themselves, provide configuration through the framework, based on templates, and provide front-end services with necessary information.<br>
-      This system is based on the secondary development of <a href="https://github.com/zuotaogithub/vue3.x-admin">[zuotaogithub/vue3.x-admin]</a> and respects the ownership of the original.
+      This system is based on the secondary development of <a href="https://github.com/newbee-ltd/vue3-admin">[newbee-ltd/vue3-admin]</a> and respects the ownership of the original.
     </div>
     
     <h1>Features List</h1>
